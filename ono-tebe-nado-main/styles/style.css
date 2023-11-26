@@ -1,0 +1,258 @@
+
+/* nav и address ниже*/
+.header {
+  display: flex;;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3em;
+  padding: 137px 51px 135px;
+  font-size: 18px;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 32px ;
+  margin-top: -3em;
+  list-style-type: circle;
+}
+
+.eader-menu-item {
+  color: #000;
+  font-family: Raleway 'sans-serif';
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.header-no-bullit{
+  list-style: none;
+}
+
+.img-logo{
+  width: 148px;
+  height: 105px;
+  margin-top: -5em;
+  margin-right: 2.1em;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: -5em;
+  margin-right: 2em;
+}
+
+.address-text{
+  text-decoration: underline solid 1.5px;
+}
+
+.number{
+  text-underline-position: under;
+}
+
+.email{
+  text-underline-position: under;
+}
+/* nav и address выше*/
+/* картинка и заголовок ниже*/
+.main-img{
+  height: 800px;
+  color: white;
+  background-image: url(../images/cover.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-text{
+  height: inherit;
+  padding: 170px 50px 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-title{
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway 'sans-serif';
+  font-weight: 700;
+  font-size: 100px;
+  font-style: normal;
+  line-height: 115%; 
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+.main-span_center{
+  text-align: center;
+}
+.main-span_right{
+  text-align: right;
+}
+.un_main-text{
+  margin-top: 8em;
+  margin-left: 2em;
+  color: #FFF;
+  font-family: Raleway 'sans-serif';
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px; /* 127.273% */
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.un_main-button{
+  margin-top: -2em;
+  margin-left: 50.4em;
+  border: 1px solid #fff;
+  border-radius: 0;
+  padding: 17px 56px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: none;
+}
+
+.lots-title{
+  margin-top: -1.4em;
+  margin-right: -4em;
+  margin-bottom: 14em;
+  margin-left: 0em;
+  color: #000;
+  font-family: Raleway 'sans-serif';
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lots{
+  display: flex;
+  margin-top: 215px;
+  margin-left: 7.8em;
+}
+
+.lots-img{
+  width: 430px;
+  height: 450px;
+  margin: 10px;
+  margin-top: 27px;
+  filter: brightness(50%);
+}
+.lots-div{
+  position: relative;
+}
+.lots-text-title{
+  position: absolute;
+  top: 49px;
+  left: 45px;
+  color: #FFF;
+  font-family: Raleway 'sans-serif';
+  font-weight: 700;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 120%; /* 26.4px */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.lots-text-down{
+  position: absolute;
+  bottom: 156px;
+  left: 50px;
+  color: #FFF;
+  font-family: Raleway 'sans-serif';
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%; /* 24px */
+}
+.two{
+  left: 42px;
+}
+.lots-more{
+  margin-top: 0.5em;
+  margin-left: 2.3em;
+  color: #000;
+  font-family: Raleway'sans-serif';
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: underline solid 1px;
+  text-underline-position: under;
+}
+.logo-white{
+  width: 120px;
+  height: 200px;
+  
+}
+
+.about-logo{
+ width: 200px;
+ height: 200px;
+ margin-top: 182px;
+ margin-left: 15em;
+ border-radius: 50%; 
+ text-align: center;
+ background: black;
+}
+
+.about-title{
+  margin-top: -3em;
+  margin-left: 14em;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;;
+}
+.about-text{
+  margin-top: 8em;
+  margin-left: 28em;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.text-two{
+  margin-top: 2em;
+}
+
+.address-footer{
+  margin-top: 180px;
+  margin-bottom: 7em;
+  margin-left: 50px;
+}
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  margin-top: -5em;
+  margin-right: -2em;
+  margin-bottom: 5em;
+  text-align: center;
+  list-style: none;
+}
+
+.icon{
+  margin-top: -8em;
+  margin-right: 50px;
+  margin-left: 73.5em;
+}
+
+.icon-url{
+  letter-spacing: 40px;
+  text-decoration: none; 
+}
+
+.icon-img{
+  width: 40px;
+}
