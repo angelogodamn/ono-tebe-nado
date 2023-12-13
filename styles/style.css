@@ -7,8 +7,8 @@
 
 .header_list {
   display: flex;
-  gap: 2rem ;
   justify-content: center;
+  gap: 2rem ;
   padding-top: 2.7rem;
   padding-right: 10rem;
   list-style: circle;
@@ -17,15 +17,15 @@
 .header_list-style {
   color: #000;
   font-family: Raleway 'sans-serif';
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
-.header_list_item-no-style { 
+.header_list_item-no-style {
+  text-decoration: none; 
   list-style: none;
-  text-decoration: none;
 }
 
 .header_list-item {
@@ -33,7 +33,7 @@
 }
 
 /* logo black*/
-.img-logo{
+.img-logo {
   width: 140px;
 }
 
@@ -42,8 +42,8 @@
   display: flex;
   flex-direction: column;
   justify-self: end;
-  padding-right: 3.3rem;
   padding-top: 0.4rem ;
+  padding-right: 3.3rem;
 }
 
 .address_item { 
@@ -53,9 +53,9 @@
 .address_item-style {
 color: #000;
 font-family: Raleway;
+font-weight: 400;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
 line-height: 24.3px; /* 135% */
 }
 
@@ -65,19 +65,19 @@ line-height: 24.3px; /* 135% */
 /* заголовок */
 
 .overley {
-  background: rgba(0, 0, 0, 0.60);
-  z-index: -1;
   position: absolute;
   inset: 0.5px 0.5px 0.5px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.60);
 }
 
-.cover {
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 10.3rem 3.1rem 3.1rem; 
+.cover { 
   position: relative;
   z-index: -2;
+  padding: 10.3rem 3.1rem 3.1rem;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
@@ -90,21 +90,21 @@ line-height: 24.3px; /* 135% */
 } 
 
 .main_logo-item-center {
-  padding-right: 3.8rem;
   padding-top: 1rem;
+  padding-right: 3.8rem;
   } 
 
 .center {
-  text-align: center;
   padding-left: 2rem;
   line-height: 100%;
+  text-align: center;
 }
 
 .right {
   display: flex;
   justify-content: end;
-  line-height: 100%;
   padding-top: 1.3rem;
+  line-height: 100%;
 }
 
 .main_logo_item_right-n {
@@ -116,9 +116,9 @@ line-height: 24.3px; /* 135% */
 }
 
 .left {
+  padding-right: 20rem;
   line-height: 115%;
   letter-spacing: 2rem;
-  padding-right: 20rem;
 }
 
 .item-o {
@@ -128,9 +128,9 @@ line-height: 24.3px; /* 135% */
 .main_logo-style {
   color: #FFF;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -143,37 +143,37 @@ line-height: 24.3px; /* 135% */
 
 .main_text_down {
   padding-top: 1rem;
+  padding-right: 5rem;
   letter-spacing: 0;
   word-spacing: 1.13rem;
-  padding-right: 5rem;
 }
 
 .main_text_down-style {
 color: #FFF;
-text-align: center;
 font-family: Raleway;
+font-weight: 400;
 font-size: 22px;
 font-style: normal;
-font-weight: 400;
 line-height: 28px; /* 127.273% */
+text-align: center;
 text-transform: uppercase;
 }
 
 .main_button {
   display: flex;
   justify-content: end;
-  text-align: right;
   padding: 0.75rem 2rem;
+  text-align: right;
 }
 
 .main_button-style {
-  font-size: 22px;
-  font-weight: 400;
-  text-transform: uppercase;
-  background: none;
   border: 1px solid #fff;
   border-radius: 0;
   color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: none;
 }
 
 .contanier_lots-title {
@@ -181,24 +181,24 @@ text-transform: uppercase;
   padding-left: 3.1rem;
 }
 
-.lots_title-style {
+.lots_title-style {  
+  padding-left: 2.5rem;
   color: #000;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
-  text-transform: uppercase;  
-  padding-left: 2.5rem;
+  text-transform: uppercase;
 }
 
 .contanier_lots {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 1.6rem;
   padding-top: 1.6rem;
   padding-left: 3rem;
-  position: relative;
 }
 
 .lots_img {
@@ -222,9 +222,9 @@ text-transform: uppercase;
 .lots_text-style {
 color: #FFF;
 font-family: Raleway;
+font-weight: 700;
 font-size: 22px;
 font-style: normal;
-font-weight: 700;
 line-height: 120%; /* 26.4px */
 text-decoration-line: underline;
 text-transform: uppercase;
@@ -238,7 +238,7 @@ text-transform: uppercase;
   
 }
 
-.lots_text_down-2{
+.lots_text_down-2 {
   position: absolute;
   z-index: 1;
   padding-top: 10rem;
@@ -255,26 +255,26 @@ text-transform: uppercase;
 .lots_text_down-style {
 color: #FFF;
 font-family: Raleway;
+font-weight: 400;
 font-size: 20px;
 font-style: normal;
-font-weight: 400;
 line-height: 120%; /* 24px */
 }
 
 .lots_link-style{
 color: #000;
 font-family: Raleway;
+font-weight: 400;
 font-size: 20px;
 font-style: normal;
-font-weight: 400;
 line-height: normal;
 }
 
 .lots_link {
-  text-underline-position: under;
   position: relative;
   bottom: -1.7rem;
   padding-left: 5.5rem;
+  text-underline-position: under;
 }
 
 .about {
@@ -282,13 +282,13 @@ line-height: normal;
 }
 
 .contanier-logo {
-  border-radius: 50%;
-  height: 240px;
-  width: 240px;
-  text-align: center;
-  background: black;
   position: relative;
   left: 9rem;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  text-align: center;
+  background: black;
 }
 
 .about_logo-white {
@@ -309,28 +309,28 @@ line-height: normal;
 
 .about_title {
   padding-top: 6.5rem;
-  padding-left:  2.7rem;
   padding-right: 2rem;
+  padding-left:  2.7rem;
 }
 
 .about_title-style {
 color: #000;
 font-family: Raleway;
+font-weight: 700;
 font-size: 40px;
 font-style: normal;
-font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
 }
 
 .p {
+  padding-left: 2.6rem;
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
-  padding-left: 2.6rem;
 }
 
 .height {
@@ -353,14 +353,13 @@ text-transform: uppercase;
 .footer_list {
   display: flex;
   flex-direction: column;
-  list-style: none;
-  text-align: center;
   padding-right: 0.3rem;
+  text-align: center;
   text-underline-position: under;
+  list-style: none;
 }
 .icons {
   display: flex;
-  padding-right: 1rem;
   justify-content: end;
   gap: 3rem;
   padding-right: 3.4rem;
@@ -371,5 +370,5 @@ text-transform: uppercase;
 }
 
 .img_icons {
-  width: 47px;
+  width: 48px;
 }
