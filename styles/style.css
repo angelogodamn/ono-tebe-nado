@@ -352,7 +352,7 @@
   list-style: none;
 }
 
-.icons {
+.icons {  
   display: flex;
   justify-content: end;
   gap: 3rem;
