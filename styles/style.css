@@ -16,7 +16,7 @@
 
 .header_list-style {
   color: #000;
-  font-family: Raleway "sans-serif";
+  font-family: Raleway, 'sans-serif';
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -50,11 +50,11 @@
 
 .address_item-style {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px; /* 135% */
+  line-height: 24.3px;
 }
 
 .address_click {
@@ -124,7 +124,7 @@
 
 .main_logo-style {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
@@ -147,11 +147,11 @@
 
 .main_text_down-style {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  line-height: 28px; /* 127.273% */
+  line-height: 28px; 
   text-align: center;
   text-transform: uppercase;
 }
@@ -181,7 +181,7 @@
 .lots_title-style {
   padding-left: 2.5rem;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -215,11 +215,11 @@
 
 .lots_text-style {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
-  line-height: 120%; /* 26.4px */
+  line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -247,16 +247,16 @@
 
 .lots_text_down-style {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: 120%; /* 24px */
+  line-height: 120%;
 }
 
 .lots_link-style {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -308,7 +308,7 @@
 
 .about_title-style {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -319,7 +319,7 @@
 .p {
   padding-left: 2.6rem;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'sans-serif';
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -365,4 +365,8 @@
 
 .img_icons {
   width: 48px;
+}
+
+.footer_ul{
+  list-style: none;
 }
