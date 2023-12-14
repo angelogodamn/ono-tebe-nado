@@ -16,7 +16,7 @@
 
 .header_list-style {
   color: #000;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -50,7 +50,7 @@
 
 .address_item-style {
   color: #000;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -124,7 +124,7 @@
 
 .main_logo-style {
   color: #fff;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
@@ -147,11 +147,11 @@
 
 .main_text_down-style {
   color: #fff;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  line-height: 28px; 
+  line-height: 28px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -181,7 +181,7 @@
 .lots_title-style {
   padding-left: 2.5rem;
   color: #000;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -215,7 +215,7 @@
 
 .lots_text-style {
   color: #fff;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
@@ -247,7 +247,7 @@
 
 .lots_text_down-style {
   color: #fff;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -256,7 +256,7 @@
 
 .lots_link-style {
   color: #000;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -308,7 +308,7 @@
 
 .about_title-style {
   color: #000;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -319,7 +319,7 @@
 .p {
   padding-left: 2.6rem;
   color: #000;
-  font-family: Raleway, 'sans-serif';
+  font-family: Raleway, "sans-serif";
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -367,6 +367,6 @@
   width: 48px;
 }
 
-.footer_ul{
+.footer_ul {
   list-style: none;
 }
