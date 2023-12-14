@@ -339,6 +339,8 @@
 }
 
 .address_list-footer {
+  display: flex;
+  flex-direction: column;
   padding-left: 3rem;
   list-style: none;
 }
@@ -365,8 +367,4 @@
 
 .img_icons {
   width: 48px;
-}
-
-.footer_ul {
-  list-style: none;
 }
